@@ -93,37 +93,52 @@ end)
 ```lua
 local Keybind1 = Tab1:NewKeybind("Keybind 1", Enum.KeyCode.RightAlt, function(key)
     Init:UpdateKeybind(Enum.KeyCode[key])
-end)```
+end)
+```
 
-# Creating a Medium Textbox
-```lua local Textbox1 = Tab1:NewTextbox("Text box 1 [auto scales // small]", "", "1", "all", "small", true, false, function(val)
+# Creating a Textbox
+```lua 
+local Textbox1 = Tab1:NewTextbox("Text box 1 [auto scales // small]", "", "1", "all", "small", true, false, function(val)
     print(val)
-end)```
+end)
+```
 
 # Creating a Small Textbox
-```lua local Textbox1 = Tab1:NewTextbox("Text box 1 [auto scales // small]", "", "1", "all", "small", true, false, function(val)
+```lua
+local Textbox1 = Tab1:NewTextbox("Text box 1 [auto scales // small]", "", "1", "all", "small", true, false, function(val)
     print(val)
-end)```
+end)
+```
 
 # Creating a Medium Textbox
-```lua local Textbox2 = Tab1:NewTextbox("Text box 2 [medium]", "", "2", "all", "medium", true, false, function(val)
+```lua
+ local Textbox2 = Tab1:NewTextbox("Text box 2 [medium]", "", "2", "all", "medium", true, false, function(val)
     print(val)
-end)```
+end)
+```
 
 # Creating a Large Textbox
-```lua local Textbox3 = Tab1:NewTextbox("Text box 3 [large]", "", "3", "all", "large", true, false, function(val)
+```lua
+local Textbox3 = Tab1:NewTextbox("Text box 3 [large]", "", "3", "all", "large", true, false, function(val)
     print(val)
-end)```
+end)
+```
 
 # Creating a Selector
-```lua local Selector1 = Tab1:NewSelector("Selector 1", "bungie", {"fg", "fge", "fg", "fg"}, function(d)
+```lua
+ local Selector1 = Tab1:NewSelector("Selector 1", "bungie", {"fg", "fge", "fg", "fg"}, function(d)
     print(d)
-end):AddOption("fge")```
+end):AddOption("fge")
+```
 
 # Creating a Selector
-```lua local Slider1 = Tab1:NewSlider("Slider 1", "", true, "/", {min = 1, max = 100, default = 20}, function(value)
+```lua
+local Slider1 = Tab1:NewSlider("Slider 1", "", true, "/", {min = 1, max = 100, default = 20}, function(value)
     print(value)
-end)```
+end)
+```
 
 # Finish Loading Include Or It May Not Work (Include This At The Bottom Of The Code)
-```lua local FinishedLoading = Notif:Notify("Loaded Axoim", 4, "Success")```
+```lua
+local FinishedLoading = Notif:Notify("Loaded Axoim", 4, "Success")
+```
