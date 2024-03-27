@@ -1,23 +1,6 @@
 # Main
 All My Main Scripts
 
-
-      .textarea {
-        margin-top: 30px;
-        display: block;
-      }
-    </style>
-    <script>
-      document.addEventListener('clipboard-copy', function (event) {
-        const notice = event.target.querySelector('.notice')
-        announce.setAttribute('aria-label', 'Copied');
-        notice.hidden = false
-        setTimeout(function () {
-          announce.setAttribute('aria-label', '');
-          notice.hidden = true
-        }, 1000)
-      })
-    </script>
   </head>
   <body>
     <main aria-labelledby="h">
