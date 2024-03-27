@@ -133,7 +133,7 @@ local Slider1 = Tab1:NewSlider("Slider 1", "", true, "/", {min = 1, max = 100, d
 end)
 ```
 
-# Include this In the bottom of your script
+# Paste This In The Bottom Of Your Script
 ```lua
 local FinishedLoading = Notif:Notify("Loaded Axoim", 4, "Success")
 ```
