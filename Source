@@ -78,7 +78,7 @@ end
 
 local library = {
     version = "2.0.2",
-    title = title or "Powered By wuhaz Credits To xsx " .. tostring(math.random(1,366)),
+    title = title or "" .. tostring(math.random(1,366)),
     fps = 0,
     rank = "private"
 }
