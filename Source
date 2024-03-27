@@ -200,7 +200,7 @@ function library:Watermark(text)
         end
     end
 
-    tetx = text or ""
+    tetx = text or "Axoim"
 
     local watermark = Instance.new("ScreenGui")
     local watermarkPadding = Instance.new("UIPadding")
