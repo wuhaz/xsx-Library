@@ -1,7 +1,7 @@
 # xsx Lib
 
-BlekLib is a open sourced Roblox UI library 
-Making them a Documentation Because they haven't.
+xsx is a open sourced Roblox UI library 
+Documentation Made By Me :)
 
 ## Booting Library
 ```lua
@@ -27,13 +27,10 @@ Shows an example of all the ui elements
 
 # Creating The Library
 ```lua
-library.title = "Wuhaz"
-
 library:Introduction()
 wait(1)
 local Init = library:Init()
-    }
-})
+local Notif = library:InitNotifications()
 ```
 
 # Creating a Notification
