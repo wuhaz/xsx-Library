@@ -1,7 +1,6 @@
 # xsx Lib
 
 xsx is a open sourced Roblox UI library 
-
 Documentation Made By Me :)
 
 ## Booting Library
