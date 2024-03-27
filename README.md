@@ -1,12 +1,3 @@
 # Boot Library
 <!-- HTML code snippet in README.md -->
-<pre>
-  <code id="codeSnippet">
-    function helloWorld() {
-      console.log("Hello, world!");
-    }
-    helloWorld();
-  </code>
-</pre>
-<button onclick="copyCode()">Copy code</button>
-
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Consistt/Ui/main/UnLeaked"))()
