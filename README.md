@@ -126,7 +126,7 @@ end)
 end):AddOption("fge")
 ```
 
-# Creating a Selector
+# Creating a Slider
 ```lua
 local Slider1 = Tab1:NewSlider("Slider 1", "", true, "/", {min = 1, max = 100, default = 20}, function(value)
     print(value)
