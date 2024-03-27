@@ -1,34 +1,27 @@
 # Main
 All My Main Scripts
 
+<!-- HTML code snippet in README.md -->
+<pre>
+  <code id="codeSnippet">
+    function helloWorld() {
+      console.log("Hello, world!");
+    }
+    helloWorld();
+  </code>
+</pre>
+<button onclick="copyCode()">Copy code</button>
 
-      <section>
-        <p>Copy from an element specified by the <code>for</code> attribute:</p>
-        <div id="name">@hubot copied from &lt;div&gt;</div>
-        <clipboard-copy for="name">
-          Copy
-          <span class="notice" hidden>Copied!</span>
-        </clipboard-copy>
-      </section>
-      <hr />
-
-      <section>
-        <label>
-          <p>Copy from an input element specified by the <code>for</code> attribute:</p>
-          <input id="login" value="@hubot copied from &lt;input&gt;" size="40" />
-        </label><br />
-        <clipboard-copy for="login">
-          Copy
-          <span class="notice" hidden>Copied!</span>
-        </clipboard-copy>
-        </section>
-      <hr />
-
-      <section>
-        <label>
-          Paste the text here to test
-          <textarea class="textarea" rows="10" cols="50"></textarea>
-        </label>
-      </section>
-  </body>
-</html>
+<!-- JavaScript to copy the code -->
+<script>
+  function copyCode() {
+    var codeElement = document.getElementById('codeSnippet');
+    var range = document.createRange();
+    range.selectNode(codeElement);
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(range);
+    document.execCommand('copy');
+    window.getSelection().removeAllRanges();
+    alert('Code copied to clipboard!');
+  }
+</script>
