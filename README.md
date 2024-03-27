@@ -1,7 +1,6 @@
 # xsx Lib
 
-xsx is a open sourced Roblox UI library 
-Documentation Made By Me :)
+xsx is a open sourced Roblox UI library
 
 ## Booting Library
 ```lua
@@ -22,8 +21,7 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Consi
 
 
 ## Documentation
-Shows an example of all the ui elements
-
+Documentation Made By Me :)
 
 # Creating The Library
 ```lua
