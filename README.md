@@ -1,19 +1,6 @@
 # Main
 All My Main Scripts
 
-  </head>
-  <body>
-    <main aria-labelledby="h">
-      <h1 id="h">Demo</h1>
-      <div aria-live="polite" id="announce"></div>
-      <section>
-        <p>Copy from <code>value</code> attribute:</p>
-        <clipboard-copy value="@hubot copied from [value]">
-          Copy
-          <span class="notice" hidden>Copied!</span>
-        </clipboard-copy>
-      </section>
-      <hr />
 
       <section>
         <p>Copy from an element specified by the <code>for</code> attribute:</p>
