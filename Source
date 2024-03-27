@@ -1,6 +1,5 @@
 --[[
   UI lib made by bungie#0001
-  
   - This Lib Is Not Made By Me All Credits To bungie#0001 This Is Just A Recreation Using What He Has Made, If you request it to be taken down dm wuhaz on discord.
 ]]
 
@@ -201,7 +200,7 @@ function library:Watermark(text)
         end
     end
 
-    tetx = text or "Powered By xsx Recreation By wuhaz"
+    tetx = text or ""
 
     local watermark = Instance.new("ScreenGui")
     local watermarkPadding = Instance.new("UIPadding")
@@ -522,7 +521,7 @@ function library:InitNotifications(text, duration, callback)
         
         CreateTween("notification_load", 0.2)
 
-        text = text or "please wait."
+        text = text or "Please Wait.."
         duration = duration or 5
         type = type or "notification"
         callback = callback or function() end
@@ -779,7 +778,7 @@ function library:Introduction()
     xsx.BackgroundTransparency = 1.000
     xsx.Size = UDim2.new(0, 80, 0, 21)
     xsx.Font = Enum.Font.Code
-    xsx.Text = "powered by xsx"
+    xsx.Text = "Powered By wuhaz"
     xsx.TextColor3 = Color3.fromRGB(124, 124, 124)
     xsx.TextSize = 10.000
     xsx.TextTransparency = 1
@@ -791,7 +790,7 @@ function library:Introduction()
     text.Position = UDim2.new(0.912751675, 0, 0, 0)
     text.Size = UDim2.new(0, 26, 0, 21)
     text.Font = Enum.Font.Code
-    text.Text = "hash"
+    text.Text = "xsx"
     text.TextColor3 = Color3.fromRGB(124, 124, 124)
     text.TextSize = 10.000
     text.TextTransparency = 1
