@@ -74,7 +74,7 @@ end)()
 local Label1 = Tab1:NewLabel("Example label", "left")--"left", "center", "right"
 ```
 
-# Creating a Toggle With Keybind
+# Creating a Toggle (With Keybind)
 ```lua
 local Toggle1 = Tab1:NewToggle("Example toggle", false, function(value)
     local vers = value and "on" or "off"
@@ -83,12 +83,15 @@ end):AddKeybind(Enum.KeyCode.RightControl)
 ```
 
 # Creating a Button
-```lua local Button1 = Tab1:NewButton("Button", function()
+```lua
+local Button1 = Tab1:NewButton("Button", function()
     print("one")
 end)
 ```
+
 # Creating a Keybind
-```lua local Keybind1 = Tab1:NewKeybind("Keybind 1", Enum.KeyCode.RightAlt, function(key)
+```lua
+local Keybind1 = Tab1:NewKeybind("Keybind 1", Enum.KeyCode.RightAlt, function(key)
     Init:UpdateKeybind(Enum.KeyCode[key])
 end)```
 
