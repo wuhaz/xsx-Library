@@ -136,6 +136,6 @@ end)
 
 # Paste This In The Bottom Of Your Script
 ```lua
-local FinishedLoading = Notif:Notify("Loaded Axoim", 4, "Success")
+local FinishedLoading = Notif:Notify("Loaded xsx example", 4, "success")
 ```
 You Have To Include This Or Your GUI May not Have The Same Features
