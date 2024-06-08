@@ -120,7 +120,7 @@ local Textbox3 = Tab1:NewTextbox("Text box 3 [large]", "", "3", "all", "large", 
 end)
 ```
 
-# Creating a Selector
+# Creating a Selector/Dropdown
 ```lua
  local Selector1 = Tab1:NewSelector("Selector 1", "bungie", {"fg", "fge", "fg", "fg"}, function(d)
     print(d)
