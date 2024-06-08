@@ -25,7 +25,7 @@ Documentation Made By Wuhazu
 
 # Creating A Window
 ```lua
-library.title = "Vigil"
+library.title = "Wuhazu"
 
 library:Introduction()
 wait(1)
