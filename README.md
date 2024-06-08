@@ -23,6 +23,18 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Consi
 ## Documentation
 Documentation Made By Wuhazu
 
+# Creating a Rank
+```lua
+library.rank = "nigga"
+local Wm = library:Watermark("xsx example | v" .. library.version ..  " | " .. library:GetUsername() .. " | rank: " .. library.rank)
+local FpsWm = Wm:AddWatermark("fps: " .. library.fps)
+coroutine.wrap(function()
+    while wait(.75) do
+        FpsWm:Text("fps: " .. library.fps)
+    end
+end)()
+```
+
 # Creating A Window
 ```lua
 library.title = "Wuhazu"
@@ -51,18 +63,6 @@ local Tab1 = Init:NewTab("Example tab")
 # Creating a Section
 ```lua
 local Section1 = Tab1:NewSection("Example Components")
-```
-
-# Creating a Rank
-```lua
-library.rank = "Dev"
-local Wm = library:Watermark("xsx example | v" .. library.version ..  " | " .. library:GetUsername() .. " | rank: " .. library.rank)
-local FpsWm = Wm:AddWatermark("fps: " .. library.fps)
-coroutine.wrap(function()
-    while wait(.75) do
-        FpsWm:Text("fps: " .. library.fps)
-    end
-end)()
 ```
 
 # Creating a Label
