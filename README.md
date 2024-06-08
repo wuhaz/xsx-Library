@@ -25,10 +25,11 @@ Documentation Made By Me :)
 
 # Creating The Library
 ```lua
+library.title = "Vigil"
+
 library:Introduction()
 wait(1)
 local Init = library:Init()
-local Notif = library:InitNotifications()
 ```
 
 # Creating a Notification
