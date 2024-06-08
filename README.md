@@ -21,9 +21,9 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Consi
 
 
 ## Documentation
-Documentation Made By Me :)
+Documentation Made By Wuhazu
 
-# Creating The Library
+# Creating A Window
 ```lua
 library.title = "Vigil"
 
