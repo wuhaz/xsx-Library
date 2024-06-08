@@ -766,7 +766,7 @@ function library:Introduction()
     hashLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     hashLogo.BackgroundTransparency = 1.000
     hashLogo.Position = UDim2.new(0.5, 0, 0.5, 0)
-    hashLogo.Size = UDim2.new(0, 154, 0, 153)
+    hashLogo.Size = UDim2.new(0, 170, 0, 172)
     hashLogo.Visible = true
     hashLogo.Image = "http://www.roblox.com/asset/?id=17780668311"
     hashLogo.ImageColor3 = Color3.fromRGB(159, 115, 255)
